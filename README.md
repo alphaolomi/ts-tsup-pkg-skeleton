@@ -1,4 +1,4 @@
-# TS Package using `tsup` and `vitest`
+# Typescript Package using `tsup` and `vitest`
 
 This is a template for a TypeScript package using `tsup` and `vitest`.
 
