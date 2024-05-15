@@ -1,5 +1,7 @@
 # Typescript Package using `tsup` and `vitest`
 
+[![Lint and Build](https://github.com/alphaolomi/ts-tsup-pkg-skeleton/actions/workflows/main.yml/badge.svg)](https://github.com/alphaolomi/ts-tsup-pkg-skeleton/actions/workflows/main.yml)
+
 This is a template for a TypeScript package using `tsup` and `vitest`.
 
 ## Usage
