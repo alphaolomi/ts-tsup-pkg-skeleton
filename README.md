@@ -1,22 +1,46 @@
-# Typescript Package using `tsup` and `vitest`
+# TypeScript Package Template
 
 [![Lint and Build](https://github.com/alphaolomi/ts-tsup-pkg-skeleton/actions/workflows/main.yml/badge.svg)](https://github.com/alphaolomi/ts-tsup-pkg-skeleton/actions/workflows/main.yml)
 
-This is a template for a TypeScript package using `tsup` and `vitest`.
+A minimal TypeScript package template with modern tooling.
 
-## Usage
+## Features
+
+- 📦 **tsup** - Fast bundler for TypeScript (ESM + CJS + DTS)
+- ✅ **Vitest** - Fast unit testing with TypeScript support
+- 🔍 **TypeScript** - Strict type checking
+- 🚀 **GitHub Actions** - CI/CD workflows included
+
+## Getting Started
 
 ```sh
 # Install dependencies
-yarn
+npm install
 
 # Build the package
-yarn build
+npm run build
 
-# Run the tests
-yarn test
+# Run tests
+npm test
+
+# Watch mode
+npm run watch
 ```
+
+## Development
+
+```sh
+npm run lint    # Type check with TypeScript
+npm run test    # Run tests with Vitest
+npm run build   # Build for production
+```
+
+## Package Structure
+
+- `src/` - Source files
+- `dist/` - Built files (CJS, ESM, and type declarations)
+- Exports both CommonJS and ES modules with full TypeScript support
 
 ## License
 
-This project is licensed under the MIT License.
+MIT
